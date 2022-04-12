@@ -1,6 +1,8 @@
 // entry point of my command line 
 let helpFunc = require("./commands/help");
-//console.log(helpFunc.help())
+let orgFunc = require("./commands/organize");
+let treeFunc = require("./commands/trees")
+    //console.log(helpFunc.help())
 let inputArr = process.argv.slice(2);
 let command = inputArr[0];
 let path = inputArr[1];
