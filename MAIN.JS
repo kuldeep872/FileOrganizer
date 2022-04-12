@@ -17,8 +17,8 @@ switch (command) {
         helpFunc.help();
         //call help function
         break;
-    default:
-        console.log("command not recognized :/")
-        break;
+    default;
+    console.log("command not recognized :/")
+    break;
 
 }
